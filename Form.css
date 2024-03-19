@@ -1,0 +1,723 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+  height: 350px;
+  width: 100%;
+  float: left;
+  background-image: url(./image/main.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-attachment: scroll;
+}
+.box1 {
+  height: 70px;
+  width: 80%;
+  background-color: black;
+  position: absolute;
+  z-index: 1;
+  left: 11%;
+  position: fixed;
+}
+
+.boxa1 {
+  width: 35%;
+  height: 100%;
+  background-color: aliceblue;
+  position: absolute;
+}
+
+.boxa1 img {
+  padding: 18px;
+
+}
+
+.boxa2 {
+  width: 65%;
+  height: 100%;
+  background-color: aliceblue;
+  position: absolute;
+  left: 35%;
+}
+
+.navbar {
+  list-style: none;
+  padding: 10px;
+
+}
+
+.navbar li {
+  float: left;
+  padding: 19px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.navbar li:hover a {
+  color: aqua;
+}
+
+
+
+
+.lokB {
+
+  height: 700px;
+  width: 100%;
+  float: left;
+  background-color: aliceblue;
+  position: relative;
+}
+
+.lokba1 {
+  height: 450px;
+  width: 35%;
+  /* background-color: red; */
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+
+.lokba1 h3 {
+  font-size: 35px;
+  position: absolute;
+  top: 60px;
+}
+
+.lokba1 p {
+  font-size: 19px;
+  position: absolute;
+  top: 200px;
+  color: gray;
+
+
+}
+
+.lokbaA {
+  height: 20%;
+  width: 100%;
+  position: absolute;
+  top: 350px;
+}
+
+.lokbaA2 {
+  height: 400px;
+  width: 30%;
+  background-color: black;
+  position: absolute;
+
+}
+
+.lokbaA2 {
+  height: 40px;
+  width: 243px;
+  background-color: black;
+  position: relative;
+}
+
+.lokba3 {
+  height: 100%;
+  width: 0%;
+  transition: 0.6s;
+  text-align: center;
+
+}
+
+.lokbaA2:hover .lokba3 {
+  background-color: darkorange;
+  width: 100%;
+}
+
+.lokba3 h4 {
+  color: aliceblue;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  font-size: 20px;
+}
+
+.lokba2 {
+  height: 450px;
+  width: 550px;
+  position: absolute;
+  top: 140px;
+  left: 800px;
+  background-image: url(./image/page4fountan.jpg);
+}
+
+
+
+.lokA {
+  height: 800px;
+  width: 100%;
+  background-image: url(./image/badimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  position: relative;
+
+}
+
+.loka {
+  height: 800px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.865);
+
+}
+
+.loka1 {
+  height: 200px;
+  width: 75%;
+  /* background-color: red; */
+  position: absolute;
+  left: 280px;
+}
+
+.loka1 h3 {
+  left: 350px;
+  font-size: 40px;
+  position: absolute;
+  top: 90px;
+  color: aliceblue;
+}
+
+.loka1 p {
+  position: absolute;
+  left: 300px;
+  top: 150px;
+  color: grey;
+  font-size: 19px;
+}
+
+.lokb {
+  height: 550px;
+  width: 80%;
+  position: absolute;
+  /* background-color: blue; */
+  left: 150px;
+  top: 250px;
+}
+
+.lokb1 {
+  height: 220px;
+  width: 350px;
+  background-color: rgba(197, 158, 158, 0.242);
+  position: absolute;
+  border-radius: 5%;
+
+}
+
+.lokb1 i {
+
+  position: absolute;
+  color: yellow;
+  font-size: 25px;
+  top: 40px;
+  left: 35px;
+}
+
+.lokb1 h3 {
+  color: aliceblue;
+  font-size: 22px;
+  position: absolute;
+  top: 40px;
+  left: 80px;
+}
+
+.lokb1 pre {
+  font-size: 15px;
+  color: aliceblue;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+
+}
+
+.lokb2 {
+  height: 220px;
+  width: 350px;
+  background-color: rgba(197, 158, 158, 0.242);
+  position: absolute;
+  border-radius: 5%;
+  left: 400px;
+}
+
+.lokb2 i {
+
+  position: absolute;
+  color: yellow;
+  font-size: 25px;
+  top: 40px;
+  left: 35px;
+}
+
+.lokb2 h3 {
+  color: aliceblue;
+  font-size: 22px;
+  position: absolute;
+  top: 40px;
+  left: 80px;
+}
+
+.lokb2 pre {
+  font-size: 15px;
+  color: aliceblue;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+
+}
+
+
+.lokb3 {
+  height: 220px;
+  width: 350px;
+  background-color: rgba(197, 158, 158, 0.242);
+  position: absolute;
+  border-radius: 5%;
+  left: 800px;
+}
+
+.lokb3 i {
+
+  position: absolute;
+  color: yellow;
+  font-size: 25px;
+  top: 40px;
+  left: 35px;
+}
+
+.lokb3 h3 {
+  color: aliceblue;
+  font-size: 22px;
+  position: absolute;
+  top: 40px;
+  left: 80px;
+}
+
+.lokb3 pre {
+  font-size: 15px;
+  color: aliceblue;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+
+}
+
+
+.lokb4 {
+  height: 220px;
+  width: 350px;
+  background-color: rgba(197, 158, 158, 0.242);
+  position: absolute;
+  border-radius: 5%;
+  top: 270px;
+}
+
+.lokb4 i {
+
+  position: absolute;
+  color: yellow;
+  font-size: 25px;
+  top: 40px;
+  left: 35px;
+}
+
+.lokb4 h3 {
+  color: aliceblue;
+  font-size: 22px;
+  position: absolute;
+  top: 40px;
+  left: 80px;
+}
+
+.lokb4 pre {
+  font-size: 15px;
+  color: aliceblue;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+
+}
+
+
+.lokb5 {
+  height: 220px;
+  width: 350px;
+  background-color: rgba(197, 158, 158, 0.242);
+  position: absolute;
+  border-radius: 5%;
+  top: 270px;
+  left: 400px;
+}
+
+.lokb5 i {
+
+  position: absolute;
+  color: yellow;
+  font-size: 25px;
+  top: 40px;
+  left: 35px;
+}
+
+.lokb5 h3 {
+  color: aliceblue;
+  font-size: 22px;
+  position: absolute;
+  top: 40px;
+  left: 80px;
+}
+
+.lokb5 pre {
+  font-size: 15px;
+  color: aliceblue;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+
+}
+
+
+.lokb6 {
+  height: 220px;
+  width: 350px;
+  background-color: rgba(197, 158, 158, 0.242);
+  position: absolute;
+  border-radius: 5%;
+  left: 800px;
+  top: 270px;
+}
+
+.lokb6 i {
+
+  position: absolute;
+  color: yellow;
+  font-size: 25px;
+  top: 40px;
+  left: 35px;
+}
+
+.lokb6 h3 {
+  color: aliceblue;
+  font-size: 22px;
+  position: absolute;
+  top: 40px;
+  left: 80px;
+}
+
+.lokb6 pre {
+  font-size: 15px;
+  color: aliceblue;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+
+}
+.page5 {
+  height: 700px;
+  width: 100%;
+  background-color: white;
+  float: left;
+  position: relative;
+}
+
+.dot1 {
+  position: absolute;
+  height: 250px;
+  width: 50%;
+  top: 40px;
+  left: 350px;
+}
+
+.dot1 h3 {
+  font-size: 35px;
+  position: absolute;
+  top: 130px;
+  left: 150px;
+}
+
+.dot1 p {
+  position: absolute;
+  top: 180px;
+  left: 50px;
+  color: grey;
+
+}
+
+.dot2 {
+  height: 200px;
+  width: 500px;
+  /* background-color: red; */
+  position: absolute;
+  border: 0.2px solid rgba(0, 0, 0, 0.242);
+  top: 330px;
+  left: 230px;
+}
+
+.dot3 {
+  height: 200px;
+  width: 500px;
+  /* background-color: red; */
+  position: absolute;
+  border: 0.2px solid rgba(0, 0, 0, 0.242);
+  top: 0px;
+  left: 530px;
+}
+
+.dot3a {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  border-radius: 50%;
+  top: 40px;
+  left: 40px;
+  background-image: url(./image/page6lady.jpg);
+}
+
+.dot3b {
+  height: 200px;
+  width: 330px;
+  position: absolute;
+  /* background-color: red; */
+  left: 150px;
+}
+
+.dot3b p {
+  padding-top: 20px;
+  color: gray;
+}
+
+.dot3b h3 {
+  padding-top: 10px;
+  transition: 1s;
+}
+
+.dot3b:hover h3 {
+  color: aqua;
+}
+
+.dot3b i {
+  padding-top: 0px;
+  color: yellow;
+
+}
+
+.dot2a {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  border-radius: 50%;
+  top: 40px;
+  left: 40px;
+  background-image: url(./image/page6lady.jpg);
+}
+
+.dot2b {
+  height: 200px;
+  width: 330px;
+  position: absolute;
+  /* background-color: red; */
+  left: 150px;
+}
+
+.dot2b p {
+  padding-top: 20px;
+  color: gray;
+}
+
+.dot2b h3 {
+  padding-top: 10px;
+  transition: 1s;
+}
+
+.dot2b:hover h3 {
+  color: aqua;
+}
+
+.dot2b i {
+  padding-top: 0px;
+  color: yellow;
+}
+
+.last {
+  height: 600px;
+  width: 100%;
+  background-color: black;
+  float: left;
+  position: relative;
+  margin-top: 150px;
+}
+
+.L1 {
+  height: 200px;
+  width: 250px;
+  /* background-color: red; */
+  position: absolute;
+  top: 120px;
+  left: 190px;
+
+}
+
+.L1 h3 {
+  color: antiquewhite;
+
+}
+
+.L1 p {
+  color: gray;
+  padding-top: 20px;
+  line-height: 25px;
+  font-size: 17px;
+}
+
+.L2 {
+  height: 200px;
+  width: 180px;
+  /* background-color: red; */
+  position: absolute;
+  top: 120px;
+  left: 470px;
+
+}
+
+.L2 h3 {
+  color: antiquewhite;
+  font-size: 18px;
+
+}
+
+.l2a {
+  height: 200px;
+  width: 50%;
+  position: absolute;
+  top: 40px;
+}
+
+.l2a a {
+  text-decoration: none;
+  line-height: 40px;
+  color: antiquewhite;
+}
+
+.l2b {
+  height: 200px;
+  width: 60px;
+  position: absolute;
+  top: 40px;
+  left: 110px;
+  /* background-color: blue; */
+}
+
+.l2b a {
+  text-decoration: none;
+  line-height: 40px;
+  color: antiquewhite;
+}
+
+.L3 {
+  height: 200px;
+  width: 250px;
+  /* background-color: red; */
+  position: absolute;
+  top: 120px;
+  left: 730px;
+
+}
+.L3 i{
+  cursor: pointer;
+  font-size: 25px;
+}
+.L3 h3 {
+  color: antiquewhite;
+  font-size: 18px;
+}
+.L3  p{
+color: gray;
+padding-top: 25px;
+line-height: 25px;
+
+}
+
+.L3 form input{
+margin-top: 20px;
+  height: 35px;
+  width: 200px;
+  color: gray;
+  background-color: black;
+  border: 1px solid gray;
+}
+.l3a{
+height: 38px;
+width: 50px;
+background-color: yellow;
+position: absolute;
+top: 140px;
+left: 190px;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
+.L4 {
+
+  height: 200px;
+  width: 290px;
+  /* background-color: red; */
+  position: absolute;
+  top: 120px;
+  left: 1000px;
+
+}
+.L4{
+color: aliceblue;
+font-size: 18px;
+}
+.L4 img{
+padding: 5px;
+cursor: pointer;
+}
+
+.L5{
+height: 80px;
+width: 75%;
+position: absolute;
+top: 380px;
+left: 189px;
+}
+
+.L5 p{
+color: gray;
+padding-top: 60px;
+
+}
+.L5 p span{
+color: yellow;
+cursor: pointer;
+
+}
+
+.L51{
+display: flex;
+align-items: end;
+justify-content: end;
+
+}
+.L51 i{
+  color: gray;
+  font-size: 20px;
+  padding-left: 15px;
+}
+.L51 i:hover{
+  color: yellow;
+}
+
+
+
+
+
+

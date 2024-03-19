@@ -1,0 +1,418 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.main {
+    height: 350px;
+    width: 100%;
+    float: left;
+    position: relative;
+    background-image: url(./image/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main1 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.box1 {
+    height: 70px;
+    width: 80%;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    left: 11%;
+    position: fixed;
+}
+
+.boxa1 {
+    width: 35%;
+    height: 100%;
+    background-color: aliceblue;
+    position: absolute;
+}
+
+.boxa1 img {
+    padding: 18px;
+
+}
+
+.boxa2 {
+    width: 65%;
+    height: 100%;
+    background-color: aliceblue;
+    position: absolute;
+    left: 35%;
+}
+
+.navbar {
+    list-style: none;
+    padding: 10px;
+
+}
+
+.navbar li {
+    float: left;
+    padding: 19px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.navbar li:hover a {
+    color: aqua;
+}
+
+.box2 {
+    height: 1500px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    float: left;
+}
+
+.box2a {
+    height: 100%;
+    width: 10%;
+    /* background-color: black; */
+    float: left;
+}
+
+.box2b {
+    height: 100%;
+    width: 80%;
+    /* background-color: blue; */
+    float: left;
+    position: relative;
+}
+
+.box2c {
+    height: 100%;
+    width: 10%;
+    /* background-color: black; */
+    float: left;
+}
+
+.box2b1 {
+    height: 100%;
+    width: 33%;
+    /* background-color: green; */
+    float: left;
+}
+
+.box2b2 {
+    height: 100%;
+    width: 34%;
+    /* background-color: wheat; */
+    float: left;
+}
+
+.box2b3 {
+    height: 100%;
+    width: 33%;
+    /* background-color: green; */
+    float: left;
+}
+
+.ba1 {
+    height: 300px;
+    width: 100%;
+    /* background-color: aliceblue; */
+    float: left;
+}
+
+.ba2 {
+    height: 270px;
+    width: 92%;
+    float: left;
+    background-image: url(./image/badimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ba3 {
+    height: 400px;
+    width: 92%;
+    background-image: url(./image/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 40px;
+}
+.ba4 {
+    height: 270px;
+    width: 92%;
+    background-image: url(./image/man3a.jpg);
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.bb1 {
+    height: 300px;
+    width: 100%;
+    /* background-color: aliceblue; */
+    float: left;
+}
+
+.bb1 h3 {
+    text-align: center;
+    margin-top: 130px;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+
+}
+
+.bb1 p {
+    margin-top: 15px;
+    font-family: inherit;
+    color: gray;
+
+}
+
+.bb2 {
+    height: 400px;
+    width: 92%;
+    background-image: url(./image/hot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.bb3 {
+    height: 270px;
+    width: 92%;
+    background-image: url(./image/man3a.jpg);
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+.bb4 {
+    height: 400px;
+    width: 92%;
+    background-image: url(./image/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 40px;
+}
+
+
+.bc1 {
+    height: 300px;
+    width: 100%;
+    /* background-color: aliceblue; */
+    float: left;
+}
+
+.bc2 {
+    height: 270px;
+    width: 92%;
+    background-image: url(./image/homeimage.jpg);
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bc3 {
+    height: 400px;
+    width: 92%;
+    background-image: url(./image/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 40px;
+}
+.bc4 {
+    height: 270px;
+    width: 92%;
+    background-image: url(./image/img5.jpg);
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+
+.last {
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    float: left;
+    position: relative;
+    margin-top: 150px;
+}
+
+.L1 {
+    height: 200px;
+    width: 250px;
+    /* background-color: red; */
+    position: absolute;
+    top: 120px;
+    left: 190px;
+
+}
+
+.L1 h3 {
+    color: antiquewhite;
+
+}
+
+.L1 p {
+    color: gray;
+    padding-top: 20px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.L2 {
+    height: 200px;
+    width: 180px;
+    /* background-color: red; */
+    position: absolute;
+    top: 120px;
+    left: 470px;
+
+}
+
+.L2 h3 {
+    color: antiquewhite;
+    font-size: 18px;
+
+}
+
+.l2a {
+    height: 200px;
+    width: 50%;
+    position: absolute;
+    top: 40px;
+}
+
+.l2a a {
+    text-decoration: none;
+    line-height: 40px;
+    color: antiquewhite;
+}
+
+.l2b {
+    height: 200px;
+    width: 60px;
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    /* background-color: blue; */
+}
+
+.l2b a {
+    text-decoration: none;
+    line-height: 40px;
+    color: antiquewhite;
+}
+
+.L3 {
+    height: 200px;
+    width: 250px;
+    /* background-color: red; */
+    position: absolute;
+    top: 120px;
+    left: 730px;
+  
+}
+.L3 i{
+    cursor: pointer;
+    font-size: 25px;
+}
+.L3 h3 {
+    color: antiquewhite;
+    font-size: 18px;
+}
+.L3  p{
+color: gray;
+padding-top: 25px;
+line-height: 25px;
+
+}
+
+.L3 form input{
+ margin-top: 20px;
+    height: 35px;
+    width: 200px;
+    color: gray;
+    background-color: black;
+    border: 1px solid gray;
+}
+.l3a{
+height: 38px;
+width: 50px;
+background-color: yellow;
+position: absolute;
+top: 140px;
+left: 190px;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
+.L4 {
+
+    height: 200px;
+    width: 290px;
+    /* background-color: red; */
+    position: absolute;
+    top: 120px;
+    left: 1000px;
+
+}
+.L4{
+color: aliceblue;
+font-size: 18px;
+}
+.L4 img{
+padding: 5px;
+cursor: pointer;
+}
+
+.L5{
+height: 80px;
+width: 75%;
+position: absolute;
+top: 380px;
+left: 189px;
+}
+
+.L5 p{
+color: gray;
+padding-top: 60px;
+
+}
+.L5 p span{
+color: yellow;
+cursor: pointer;
+
+}
+
+.L51{
+display: flex;
+align-items: end;
+justify-content: end;
+
+}
+.L51 i{
+    color: gray;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.L51 i:hover{
+    color: yellow;
+}
+

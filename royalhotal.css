@@ -1,0 +1,1599 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.main {
+    height: 750px;
+    width: 100%;
+    float: left;
+    position: relative;
+    background-image: url(./image/homeimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main1 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.box1 {
+    height: 70px;
+    width: 80%;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    left: 11%;
+    position: fixed;
+}
+
+.boxa1 {
+    width: 35%;
+    height: 100%;
+    background-color: aliceblue;
+    position: absolute;
+}
+
+.boxa1 img {
+    padding: 18px;
+
+}
+
+.boxa2 {
+    width: 65%;
+    height: 100%;
+    background-color: aliceblue;
+    position: absolute;
+    left: 35%;
+}
+
+.navbar {
+    list-style: none;
+    padding: 10px;
+
+}
+
+.navbar li {
+    float: left;
+    padding: 19px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.navbar li:hover a {
+    color: aqua;
+}
+
+.box2 {
+    height: 270px;
+    width: 50%;
+    position: absolute;
+    top: 220px;
+    left: 25%;
+}
+
+.boxa p {
+    text-align: center;
+    font-weight: 10;
+    color: aliceblue;
+}
+
+.boxb {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    font-size: 400%;
+    color: aliceblue;
+}
+
+.boxc {
+    height: 70px;
+    width: 80%;
+
+}
+
+.boxc pre {
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    margin-left: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-transform: lowercase;
+}
+
+.boxd {
+    height: 38px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    margin-left: 310px;
+}
+
+.boxd1 {
+    height: 38px;
+    width: 0%;
+    text-align: center;
+    color: aliceblue;
+    transition: 1s;
+}
+
+.boxd:hover .boxd1 {
+    width: 100%;
+    background-color: darkorange;
+}
+
+.boxd1 h3 {
+    position: absolute;
+    padding-top: 8px;
+    padding-left: 30px;
+}
+
+.box3 {
+    height: 150px;
+    width: 75%;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 14%;
+    float: left;
+}
+
+.box3a {
+    height: 120px;
+    width: 18%;
+    color: aliceblue;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 50px;
+    float: left;
+}
+
+.box3b form {
+    width: 25%;
+    height: 150px;
+    position: absolute;
+    margin-left: 250px;
+    float: left;
+}
+
+.box3b form input {
+    height: 40px;
+    width: 200px;
+    padding-left: 40px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.box3c {
+    width: 25%;
+    height: 150px;
+    position: absolute;
+    margin-left: 550px;
+}
+
+.box3c form input {
+    height: 40px;
+    width: 200px;
+    padding-left: 40px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.box3d {
+    width: 25%;
+    height: 70px;
+    position: absolute;
+    margin-left: 850px;
+}
+
+.box3d form input {
+    height: 40px;
+    width: 200px;
+    padding-left: 40px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.box3e {
+    height: 40px;
+    width: 243px;
+    background-color: orange;
+    margin-left: 850px;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.box3e1 {
+    height: 100%;
+    width: 0%;
+    transition: 1s;
+    text-align: center;
+}
+
+.box3e:hover .box3e1 {
+    background-color: darkorange;
+    width: 100%;
+}
+
+.box3e1 h3 {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 70px;
+
+}
+
+.box3e2 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    z-index: 8;
+}
+
+
+
+
+.boxB1 {
+    height: 700px;
+    width: 100%;
+    /* background-color: blue; */
+    float: left;
+    position: relative;
+}
+
+.boxB1a {
+    height: 150px;
+    width: 80%;
+    /* border-color: blue; */
+    position: absolute;
+    margin-left: 150px;
+    margin: 150px
+}
+
+.boxb1a1 {
+    height: 50px;
+    width: 100%;
+    font-size: 40px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.boxb1a2 {
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    color: grey;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxBb {
+    height: 290px;
+    width: 100%;
+    /* background-color: aliceblue; */
+    position: absolute;
+    margin-top: 300px;
+}
+
+.boxBc {
+    height: 250px;
+    width: 250px;
+    /* background-color: crimson; */
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 150px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.boxBc:hover img {
+    transform: scale(1.4);
+    transition: 1s;
+}
+
+.boxBd {
+    height: 250px;
+    width: 250px;
+    /* background-color: pink; */
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 450px;
+    border-radius: 10%;
+    overflow: hidden;
+
+}
+
+.boxBd:hover img {
+    transform: scale(1.4);
+    transition: 2s;
+}
+
+.boxBe {
+    height: 250px;
+    width: 250px;
+    /* background-color: red; */
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 750px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.boxBe:hover img {
+    transition: 2s;
+    transform: scale(1.4);
+}
+
+.boxBf {
+    height: 250px;
+    width: 250px;
+    /* background-color: black; */
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1050px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.boxBf:hover img {
+    transform: scale(1.4);
+    transition: 2s;
+}
+
+.boxBlok {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    float: left;
+    position: relative;
+}
+
+.boxBc1 {
+    height: 38px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+}
+
+.boxBc2 {
+    height: 38px;
+    width: 0%;
+    color: aliceblue;
+    transition: 1s;
+}
+
+.boxBc1:hover .boxBc2 {
+    width: 100%;
+    background-color: darkorange;
+}
+
+.boxBc2 h3 {
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 18px
+}
+
+.boxBd1 {
+    height: 38px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+.boxBd2 {
+    height: 38px;
+    width: 0%;
+    color: aliceblue;
+    transition: 1s;
+}
+
+.boxBd1:hover .boxBd2 {
+    width: 100%;
+    background-color: darkorange;
+}
+
+.boxBd2 h3 {
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 18px;
+}
+
+.boxBe1 {
+    height: 38px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+
+.boxBe2 {
+    height: 38px;
+    width: 0%;
+    text-align: center;
+    color: aliceblue;
+    transition: 1s;
+}
+
+.boxBe1:hover .boxBe2 {
+    width: 100%;
+    background-color: darkorange;
+}
+
+.boxBe2 h3 {
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 18px;
+}
+
+.boxBf1 {
+    height: 38px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+}
+
+.boxBf2 {
+    height: 38px;
+    width: 0%;
+    color: aliceblue;
+    transition: 1s;
+}
+
+.boxBf1:hover .boxBf2 {
+    width: 100%;
+    background-color: darkorange;
+}
+
+.boxBf2 h3 {
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 18px;
+}
+
+.boxC {
+    height: 100px;
+    width: 80%;
+    /* background-color: blanchedalmond; */
+    position: relative;
+    margin-left: 130px;
+    margin-top: 290px;
+    top: 270px;
+}
+
+.boxC1 {
+    height: 70px;
+    width: 20%;
+    /* background-color: red; */
+    position: absolute;
+    top: 18px;
+}
+
+.boxC1 h3 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.boxC1 p {
+    text-align: center;
+    color: aqua;
+    font-size: 25px;
+
+}
+
+.boxC1 p span {
+    font-size: 18px;
+}
+
+.boxC2 {
+    height: 70px;
+    width: 22%;
+    /* background-color: red; */
+    position: absolute;
+    top: 18px;
+    left: 310px;
+}
+
+.boxC2 h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.boxC2 p {
+    text-align: center;
+    color: aqua;
+    font-size: 25px;
+}
+
+.boxC2 p span {
+    font-size: 18px;
+}
+
+.boxC3 {
+    height: 70px;
+    width: 20%;
+    /* background-color: red; */
+    position: absolute;
+    top: 18px;
+    left: 620px;
+}
+
+.boxC3 h3 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.boxC3 p {
+    text-align: center;
+    color: aqua;
+    font-size: 25px;
+}
+
+.boxC3 p span {
+    font-size: 18px;
+}
+
+.boxC4 {
+    height: 70px;
+    width: 20%;
+    /* background-color: red; */
+    position: absolute;
+    top: 18px;
+    left: 930px;
+}
+
+.boxC4 h3 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.boxC4 p {
+    text-align: center;
+    color: aqua;
+    font-size: 25px;
+}
+
+.boxC4 p span {
+    font-size: 18px;
+
+
+}
+
+.lokA {
+    height: 800px;
+    width: 100%;
+    background-image: url(./image/badimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    position: relative;
+    background-attachment: fixed;
+
+}
+
+.loka {
+    height: 800px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.865);
+
+}
+
+.loka1 {
+    height: 200px;
+    width: 75%;
+    /* background-color: red; */
+    position: absolute;
+    left: 280px;
+}
+
+.loka1 h3 {
+    left: 350px;
+    font-size: 40px;
+    position: absolute;
+    top: 90px;
+    color: aliceblue;
+}
+
+.loka1 p {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    color: grey;
+    font-size: 19px;
+}
+
+.lokb {
+    height: 550px;
+    width: 80%;
+    position: absolute;
+    /* background-color: blue; */
+    left: 150px;
+    top: 250px;
+}
+
+.lokb1 {
+    height: 220px;
+    width: 350px;
+    background-color: rgba(197, 158, 158, 0.242);
+    position: absolute;
+    border-radius: 5%;
+
+}
+
+.lokb1 i {
+
+    position: absolute;
+    color: yellow;
+    font-size: 25px;
+    top: 40px;
+    left: 35px;
+}
+
+.lokb1 h3 {
+    color: aliceblue;
+    font-size: 22px;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+
+.lokb1 pre {
+    font-size: 15px;
+    color: aliceblue;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+}
+
+.lokb2 {
+    height: 220px;
+    width: 350px;
+    background-color: rgba(197, 158, 158, 0.242);
+    position: absolute;
+    border-radius: 5%;
+    left: 400px;
+}
+
+.lokb2 i {
+
+    position: absolute;
+    color: yellow;
+    font-size: 25px;
+    top: 40px;
+    left: 35px;
+}
+
+.lokb2 h3 {
+    color: aliceblue;
+    font-size: 22px;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+
+.lokb2 pre {
+    font-size: 15px;
+    color: aliceblue;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+}
+
+
+.lokb3 {
+    height: 220px;
+    width: 350px;
+    background-color: rgba(197, 158, 158, 0.242);
+    position: absolute;
+    border-radius: 5%;
+    left: 800px;
+}
+
+.lokb3 i {
+
+    position: absolute;
+    color: yellow;
+    font-size: 25px;
+    top: 40px;
+    left: 35px;
+}
+
+.lokb3 h3 {
+    color: aliceblue;
+    font-size: 22px;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+
+.lokb3 pre {
+    font-size: 15px;
+    color: aliceblue;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+}
+
+
+.lokb4 {
+    height: 220px;
+    width: 350px;
+    background-color: rgba(197, 158, 158, 0.242);
+    position: absolute;
+    border-radius: 5%;
+    top: 270px;
+}
+
+.lokb4 i {
+
+    position: absolute;
+    color: yellow;
+    font-size: 25px;
+    top: 40px;
+    left: 35px;
+}
+
+.lokb4 h3 {
+    color: aliceblue;
+    font-size: 22px;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+
+.lokb4 pre {
+    font-size: 15px;
+    color: aliceblue;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+}
+
+
+.lokb5 {
+    height: 220px;
+    width: 350px;
+    background-color: rgba(197, 158, 158, 0.242);
+    position: absolute;
+    border-radius: 5%;
+    top: 270px;
+    left: 400px;
+}
+
+.lokb5 i {
+
+    position: absolute;
+    color: yellow;
+    font-size: 25px;
+    top: 40px;
+    left: 35px;
+}
+
+.lokb5 h3 {
+    color: aliceblue;
+    font-size: 22px;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+
+.lokb5 pre {
+    font-size: 15px;
+    color: aliceblue;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+}
+
+
+.lokb6 {
+    height: 220px;
+    width: 350px;
+    background-color: rgba(197, 158, 158, 0.242);
+    position: absolute;
+    border-radius: 5%;
+    left: 800px;
+    top: 270px;
+}
+
+.lokb6 i {
+
+    position: absolute;
+    color: yellow;
+    font-size: 25px;
+    top: 40px;
+    left: 35px;
+}
+
+.lokb6 h3 {
+    color: aliceblue;
+    font-size: 22px;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+
+.lokb6 pre {
+    font-size: 15px;
+    color: aliceblue;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
+}
+
+.lokB {
+
+    height: 700px;
+    width: 100%;
+    float: left;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.lokba1 {
+    height: 450px;
+    width: 35%;
+    /* background-color: red; */
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.lokba1 h3 {
+    font-size: 35px;
+    position: absolute;
+    top: 60px;
+}
+
+.lokba1 p {
+    font-size: 19px;
+    position: absolute;
+    top: 200px;
+    color: gray;
+
+
+}
+
+.lokbaA {
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    top: 350px;
+}
+
+.lokbaA2 {
+    height: 400px;
+    width: 30%;
+    background-color: black;
+    position: absolute;
+
+}
+
+.lokbaA2 {
+    height: 40px;
+    width: 243px;
+    background-color: black;
+    position: relative;
+}
+
+.lokba3 {
+    height: 100%;
+    width: 0%;
+    transition: 0.6s;
+    text-align: center;
+
+}
+
+.lokbaA2:hover .lokba3 {
+    background-color: darkorange;
+    width: 100%;
+}
+
+.lokba3 h4 {
+    color: aliceblue;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    font-size: 20px;
+}
+
+.lokba2 {
+    height: 450px;
+    width: 550px;
+    position: absolute;
+    top: 140px;
+    left: 800px;
+    background-image: url(./image/page4fountan.jpg);
+}
+
+
+.page5 {
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+
+.dot1 {
+    position: absolute;
+    height: 250px;
+    width: 50%;
+    top: 40px;
+    left: 350px;
+}
+
+.dot1 h3 {
+    font-size: 35px;
+    position: absolute;
+    top: 130px;
+    left: 150px;
+}
+
+.dot1 p {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    color: grey;
+
+}
+
+.dot2 {
+    height: 200px;
+    width: 500px;
+    /* background-color: red; */
+    position: absolute;
+    border: 0.2px solid rgba(0, 0, 0, 0.242);
+    top: 330px;
+    left: 230px;
+}
+
+.dot3 {
+    height: 200px;
+    width: 500px;
+    /* background-color: red; */
+    position: absolute;
+    border: 0.2px solid rgba(0, 0, 0, 0.242);
+    top: 0px;
+    left: 530px;
+}
+
+.dot3a {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 50%;
+    top: 40px;
+    left: 40px;
+    background-image: url(./image/page6lady.jpg);
+}
+
+.dot3b {
+    height: 200px;
+    width: 330px;
+    position: absolute;
+    /* background-color: red; */
+    left: 150px;
+}
+
+.dot3b p {
+    padding-top: 20px;
+    color: gray;
+}
+
+.dot3b h3 {
+    padding-top: 10px;
+    transition: 1s;
+}
+
+.dot3b:hover h3 {
+    color: aqua;
+}
+
+.dot3b i {
+    padding-top: 0px;
+    color: yellow;
+
+}
+
+.dot2a {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 50%;
+    top: 40px;
+    left: 40px;
+    background-image: url(./image/page6lady.jpg);
+}
+
+.dot2b {
+    height: 200px;
+    width: 330px;
+    position: absolute;
+    /* background-color: red; */
+    left: 150px;
+}
+
+.dot2b p {
+    padding-top: 20px;
+    color: gray;
+}
+
+.dot2b h3 {
+    padding-top: 10px;
+    transition: 1s;
+}
+
+.dot2b:hover h3 {
+    color: aqua;
+}
+
+.dot2b i {
+    padding-top: 0px;
+    color: yellow;
+}
+
+
+
+.man {
+    height: 800px;
+    width: 100%;
+    float: left;
+    position: relative;
+    background-color: white;
+
+}
+
+.man1 {
+    height: 150px;
+    width: 70%;
+    /* background-color: red; */
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+.man1 h3 {
+    padding-left: 320px;
+    padding-top: 0px;
+    font-size: 40px;
+}
+
+.man1 p {
+    color: grey;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 180px;
+
+}
+
+.man2 {
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+
+}
+
+.man2a {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.man2a img {
+    width: 350px;
+    transition: 1.5s;
+
+}
+
+.man2a:hover img {
+
+    transform: rotate(15deg) scale(1.4);
+
+}
+
+.man2b {
+    height: 20px;
+    width: 60px;
+    border: 1px solid black;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.man2ba {
+    height: 100%;
+    width: 0%;
+    background-color: rgba(255, 166, 0, 0.516);
+    transition: 0.6s;
+}
+
+.man2ba span {
+    padding-left: 10px;
+
+}
+
+.man2b:hover .man2ba {
+    width: 100%;
+}
+
+.manc {
+    height: 20px;
+    width: 80px;
+    border: 1px solid black;
+    cursor: pointer;
+    position: absolute;
+    top: 270px;
+    left: 80px;
+
+}
+
+.manca {
+    height: 100%;
+    width: 0%;
+    background-color: rgba(255, 166, 0, 0.516);
+    transition: 1s;
+}
+
+.manca span {
+    position: absolute;
+    padding-left: 2px;
+
+}
+
+.manc:hover .manca {
+    width: 100%;
+}
+
+.man2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 310px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.man2 a:hover {
+
+    color: aqua;
+}
+
+.man2 p {
+    color: gray;
+    padding-top: 60px;
+    line-height: 30px;
+
+}
+
+.man2 h5 {
+
+    padding-top: 20px;
+
+}
+
+
+
+
+.man3 {
+    height: 450px;
+    width: 350px;
+    /* background-color: black; */
+    position: absolute;
+    top: 250px;
+    left: 600px;
+
+}
+
+.man3a {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.man3a img {
+    width: 350px;
+    transition: 1.5s;
+
+}
+
+.man3a:hover img {
+
+    transform: rotate(15deg) scale(1.4);
+
+}
+
+.man3b {
+    height: 20px;
+    width: 60px;
+    border: 1px solid black;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.man3ba {
+    height: 100%;
+    width: 0%;
+    background-color: rgba(255, 166, 0, 0.516);
+    transition: 0.6s;
+}
+
+.man3ba span {
+    padding-left: 10px;
+
+}
+
+.man3b:hover .man3ba {
+    width: 100%;
+}
+
+.man3c {
+    height: 20px;
+    width: 80px;
+    border: 1px solid black;
+    cursor: pointer;
+    position: absolute;
+    top: 270px;
+    left: 80px;
+
+}
+
+.man3ca {
+    height: 100%;
+    width: 0%;
+    background-color: rgba(255, 166, 0, 0.516);
+    transition: 1s;
+}
+
+.man3ca span {
+    position: absolute;
+    padding-left: 2px;
+
+}
+
+.man3c:hover .man3ca {
+    width: 100%;
+}
+
+.man3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 310px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.man3 a:hover {
+
+    color: aqua;
+}
+
+.man3 p {
+    color: gray;
+    padding-top: 60px;
+    line-height: 30px;
+
+}
+
+.man3 h5 {
+
+    padding-top: 20px;
+
+}
+
+
+
+
+.man4 {
+    height: 450px;
+    width: 350px;
+    /* background-color: black; */
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+}
+
+.man4a {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.man4a img {
+    width: 350px;
+    transition: 1.5s;
+
+}
+
+.man4a:hover img {
+
+    transform: rotate(15deg) scale(1.4);
+}
+
+.man4b {
+    height: 20px;
+    width: 60px;
+    border: 1px solid black;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.man4ba {
+    height: 100%;
+    width: 0%;
+    background-color: rgba(255, 166, 0, 0.516);
+    transition: 0.6s;
+}
+
+.man4ba span {
+    padding-left: 10px;
+
+}
+
+.man4b:hover .man4ba {
+    width: 100%;
+}
+
+.man4c {
+    height: 20px;
+    width: 80px;
+    border: 1px solid black;
+    cursor: pointer;
+    position: absolute;
+    top: 270px;
+    left: 80px;
+
+}
+
+.man4ca {
+    height: 100%;
+    width: 0%;
+    background-color: rgba(255, 166, 0, 0.516);
+    transition: 1s;
+}
+
+.man4ca span {
+    position: absolute;
+    padding-left: 2px;
+
+}
+
+.man4c:hover .man4ca {
+    width: 100%;
+}
+
+.man4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 310px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.man4 a:hover {
+
+    color: aqua;
+}
+
+.man4 p {
+    color: gray;
+    padding-top: 60px;
+    line-height: 30px;
+
+}
+
+.man4 h5 {
+
+    padding-top: 20px;
+
+}
+
+
+
+
+
+.last {
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    float: left;
+    position: relative;
+    margin-top: 150px;
+}
+
+.L1 {
+    height: 200px;
+    width: 250px;
+    /* background-color: red; */
+    position: absolute;
+    top: 120px;
+    left: 190px;
+
+}
+
+.L1 h3 {
+    color: antiquewhite;
+
+}
+
+.L1 p {
+    color: gray;
+    padding-top: 20px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.L2 {
+    height: 200px;
+    width: 180px;
+    /* background-color: red; */
+    position: absolute;
+    top: 120px;
+    left: 470px;
+
+}
+
+.L2 h3 {
+    color: antiquewhite;
+    font-size: 18px;
+
+}
+
+.l2a {
+    height: 200px;
+    width: 50%;
+    position: absolute;
+    top: 40px;
+}
+
+.l2a a {
+    text-decoration: none;
+    line-height: 40px;
+    color: antiquewhite;
+}
+
+.l2b {
+    height: 200px;
+    width: 60px;
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    /* background-color: blue; */
+}
+
+.l2b a {
+    text-decoration: none;
+    line-height: 40px;
+    color: antiquewhite;
+}
+
+.L3 {
+    height: 200px;
+    width: 250px;
+    /* background-color: red; */
+    position: absolute;
+    top: 120px;
+    left: 730px;
+  
+}
+.L3 i{
+    cursor: pointer;
+    font-size: 25px;
+}
+.L3 h3 {
+    color: antiquewhite;
+    font-size: 18px;
+}
+.L3  p{
+color: gray;
+padding-top: 25px;
+line-height: 25px;
+
+}
+
+.L3 form input{
+ margin-top: 20px;
+    height: 35px;
+    width: 200px;
+    color: gray;
+    background-color: black;
+    border: 1px solid gray;
+}
+.l3a{
+height: 38px;
+width: 50px;
+background-color: yellow;
+position: absolute;
+top: 140px;
+left: 190px;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
+.L4 {
+
+    height: 200px;
+    width: 290px;
+    /* background-color: red; */
+    position: absolute;
+    top: 120px;
+    left: 1000px;
+
+}
+.L4{
+color: aliceblue;
+font-size: 18px;
+}
+.L4 img{
+padding: 5px;
+cursor: pointer;
+}
+
+.L5{
+height: 80px;
+width: 75%;
+position: absolute;
+top: 380px;
+left: 189px;
+}
+
+.L5 p{
+color: gray;
+padding-top: 60px;
+
+}
+.L5 p span{
+color: yellow;
+cursor: pointer;
+
+}
+
+.L51{
+display: flex;
+align-items: end;
+justify-content: end;
+
+}
+.L51 i{
+    color: gray;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.L51 i:hover{
+    color: yellow;
+}
+
+
